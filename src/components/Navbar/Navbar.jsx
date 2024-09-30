@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { NavLink } from "react-router-dom";
+import "./Navbar.css";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -8,8 +10,8 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="bg-white shadow-md fixed w-full">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <nav className="fixed shadow-md container mx-auto max-w-full">
+      <div className="px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
@@ -40,23 +42,34 @@ export default function Navbar() {
           </div>
 
           {/* Menu Links */}
-          <div className={`hidden sm:flex sm:items-center sm:space-x-6`}>
-            <a href="#" className="text-gray-900 hover:text-blue-400">
+          <div
+            className={`hidden isActive sm:flex sm:items-center sm:space-x-6`}
+          >
+            <NavLink to="/" className="text-gray-900 hover:text-blue-400">
               HOME
-            </a>
-            <a href="#" className="text-gray-900 hover:text-blue-400">
+            </NavLink>
+            <NavLink
+              to="/registration"
+              className="text-gray-900 hover:text-blue-400"
+            >
               REGISTRATION
-            </a>
-            <a href="#" className="text-gray-900 hover:text-blue-400">
+            </NavLink>
+            <NavLink to="/notice" className="text-gray-900 hover:text-blue-400">
               NOTICE
-            </a>
-            <a href="#" className="text-gray-900 hover:text-blue-400">
+            </NavLink>
+            <NavLink
+              to="/about-us"
+              className="text-gray-900 hover:text-blue-400"
+            >
               ABOUT US
-            </a>
-            <a href="#" className="text-gray-900 hover:text-blue-400">
+            </NavLink>
+            <NavLink
+              to="/contact"
+              className="text-gray-900 hover:text-blue-400"
+            >
               CONTACT
-            </a>
-            {/* <a href="#" className="text-gray-900 hover:text-blue-400">
+            </NavLink>
+            {/* <a to="#" className="text-gray-900 hover:text-blue-400">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-6 w-6"
@@ -82,39 +95,39 @@ export default function Navbar() {
           isOpen ? "block" : "hidden"
         } sm:hidden transition duration-300 ease-in-out`}
       >
-        <div className="px-2 pt-2 pb-3 space-y-1">
-          <a
-            href="#"
+        <div className="px-2 isActive pt-2 pb-3 space-y-1">
+          <NavLink
+            to="/"
             className="text-gray-900 block px-3 py-2 rounded-md hover:bg-gray-100 hover:text-blue-400"
           >
             HOME
-          </a>
-          <a
-            href="#"
+          </NavLink>
+          <NavLink
+            to="/registration"
             className="text-gray-900 block px-3 py-2 rounded-md hover:bg-gray-100 hover:text-blue-400"
           >
             REGISTRATION
-          </a>
-          <a
-            href="#"
+          </NavLink>
+          <NavLink
+            to="/notice"
             className="text-gray-900 block px-3 py-2 rounded-md hover:bg-gray-100 hover:text-blue-400"
           >
             NOTICE
-          </a>
-          <a
-            href="#"
+          </NavLink>
+          <NavLink
+            to="/about-us"
             className="text-gray-900 block px-3 py-2 rounded-md hover:bg-gray-100 hover:text-blue-400"
           >
             ABOUT US
-          </a>
-          <a
-            href="#"
+          </NavLink>
+          <NavLink
+            to="/contact"
             className="text-gray-900 block px-3 py-2 rounded-md hover:bg-gray-100 hover:text-blue-400"
           >
             CONTACT
-          </a>
+          </NavLink>
           {/* <a
-            href="#"
+            to="#"
             className="text-gray-900 block px-3 py-2 rounded-md hover:bg-gray-100 hover:text-blue-400"
           > */}
           {/* User Icon */}

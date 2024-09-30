@@ -1,0 +1,7 @@
+.isActive a.active {
+  background-color: #2C2A82;
+  color: white;
+  padding: 2px 4px;
+  border-radius: 5px;
+  font-weight: 500;
+}
