@@ -13,7 +13,7 @@ export default function Navbar() {
         <div className="flex justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
-            <img src="/logo.png" alt="Logo" className="h-10" />
+            <img src="/logo.jpg" alt="Logo" className="h-16" />
           </div>
 
           {/* Hamburger icon for mobile */}
@@ -56,7 +56,7 @@ export default function Navbar() {
             <a href="#" className="text-gray-900 hover:text-blue-400">
               CONTACT
             </a>
-            <a href="#" className="text-gray-900 hover:text-blue-400">
+            {/* <a href="#" className="text-gray-900 hover:text-blue-400">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-6 w-6"
@@ -71,7 +71,7 @@ export default function Navbar() {
                   d="M5.121 19a3.5 3.5 0 014.95-4.95M12 12V8m0 0V8m0 0a3.5 3.5 0 014.95-4.95M12 12v4m0 0v4"
                 />
               </svg>
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
@@ -113,12 +113,12 @@ export default function Navbar() {
           >
             CONTACT
           </a>
-          <a
+          {/* <a
             href="#"
             className="text-gray-900 block px-3 py-2 rounded-md hover:bg-gray-100 hover:text-blue-400"
-          >
-            {/* User Icon */}
-            <svg
+          > */}
+          {/* User Icon */}
+          {/* <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-6 w-6"
               fill="none"
@@ -132,7 +132,7 @@ export default function Navbar() {
                 d="M5.121 19a3.5 3.5 0 014.95-4.95M12 12V8m0 0V8m0 0a3.5 3.5 0 014.95-4.95M12 12v4m0 0v4"
               />
             </svg>
-          </a>
+          </a> */}
         </div>
       </div>
     </nav>
