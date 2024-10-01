@@ -59,7 +59,7 @@ const Footer = () => {
           <span className="text-sm text-white sm:text-center">
             © ২০২৪{" "}
             <Link to="" className="hover:underline">
-              কিশোর কণ্ঠ
+              কিশোর কণ্ঠ পাঠক ফোরাম
             </Link>
             . All Rights Reserved.
           </span>
