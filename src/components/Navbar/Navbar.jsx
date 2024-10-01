@@ -46,28 +46,34 @@ export default function Navbar() {
             className={`hidden isActive sm:flex sm:items-center sm:space-x-6`}
           >
             <NavLink to="/" className="text-gray-900 hover:text-blue-400">
-              HOME
+              হোম
             </NavLink>
             <NavLink
               to="/registration"
               className="text-gray-900 hover:text-blue-400"
             >
-              REGISTRATION
+              রেজিস্ট্রেশন
             </NavLink>
             <NavLink to="/notice" className="text-gray-900 hover:text-blue-400">
-              NOTICE
+              নোটিশ
             </NavLink>
             <NavLink
               to="/about-us"
               className="text-gray-900 hover:text-blue-400"
             >
-              ABOUT US
+              আমাদের সম্পর্কে
             </NavLink>
             <NavLink
               to="/contact"
               className="text-gray-900 hover:text-blue-400"
             >
-              CONTACT
+              যোগাযোগ
+            </NavLink>
+            <NavLink
+              to="/syllabus"
+              className="text-gray-900 hover:text-blue-400"
+            >
+              সিলেবাস
             </NavLink>
             {/* <a to="#" className="text-gray-900 hover:text-blue-400">
               <svg
@@ -100,31 +106,34 @@ export default function Navbar() {
             to="/"
             className="text-gray-900 block px-3 py-2 rounded-md hover:bg-gray-100 hover:text-blue-400"
           >
-            HOME
+            হোম
           </NavLink>
           <NavLink
             to="/registration"
             className="text-gray-900 block px-3 py-2 rounded-md hover:bg-gray-100 hover:text-blue-400"
           >
-            REGISTRATION
+            রেজিস্ট্রেশন
           </NavLink>
           <NavLink
             to="/notice"
             className="text-gray-900 block px-3 py-2 rounded-md hover:bg-gray-100 hover:text-blue-400"
           >
-            NOTICE
+            নোটিশ
           </NavLink>
           <NavLink
             to="/about-us"
             className="text-gray-900 block px-3 py-2 rounded-md hover:bg-gray-100 hover:text-blue-400"
           >
-            ABOUT US
+            আমাদের সম্পর্কে
           </NavLink>
           <NavLink
             to="/contact"
             className="text-gray-900 block px-3 py-2 rounded-md hover:bg-gray-100 hover:text-blue-400"
           >
-            CONTACT
+            যোগাযোগ
+          </NavLink>
+          <NavLink to="/syllabus" className="text-gray-900 hover:text-blue-400">
+            সিলেবাস
           </NavLink>
           {/* <a
             to="#"
