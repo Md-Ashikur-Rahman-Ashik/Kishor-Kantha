@@ -15,17 +15,17 @@ const Footer = () => {
           <div className="grid grid-cols-2 gap-6 sm:gap-6 md:gap-8">
             <div>
               <h2 className="text-sm mb-1 font-semibold text-white">
-                ৫১, ৫১/এ,পুরানা পল্টন
+                হাফেজ মঞ্জিল (ইবনে তাইমিয়া স্কুলের বিপরীতে)
               </h2>
               <ul className="text-white font-medium">
                 <li className="mb-1">
                   <h2 className="text-sm font-semibold text-white">
-                    ৭তম তলা,ঢাকা-১০০০
+                    টমছমব্রিজ, কুমিল্লা
                   </h2>
                 </li>
                 <li className="">
                   <h2 className="text-sm font-semibold text-white">
-                    ইমেইল: kishorkantha@yahoo.com
+                    মোবাইলঃ ০১৮৯৬৪০৩৪০৮
                   </h2>
                 </li>
               </ul>
