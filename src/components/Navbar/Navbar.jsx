@@ -10,7 +10,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="fixed shadow-md container mx-auto max-w-full">
+    <nav className="sticky z-10 shadow-md container mx-auto max-w-full">
       <div className="px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           {/* Logo */}
