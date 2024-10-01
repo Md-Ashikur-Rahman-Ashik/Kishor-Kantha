@@ -6,6 +6,7 @@ const Main = () => {
     <>
       <Navbar></Navbar>
       <Outlet></Outlet>
+      <img src="/Footer.jpg" className="container mx-auto" alt="" />
     </>
   );
 };
