@@ -8,9 +8,12 @@ const Footer = () => {
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
             <Link to="" className="flex items-center">
-              <img src="/logo.jpg" className="h-16" alt="Kishor Kantha Logo" />
+              <img src="/logo.png" className="h-16" alt="Kishor Kantha Logo" />
             </Link>
-            <span>বাংলাদেশের সর্বাধিক প্রকাশিত শিশুকিশোর মাসিক</span>
+            <p className="flex flex-col mt-2">
+              <span>বাংলাদেশের সর্বাধিক প্রকাশিত শিশুকিশোর মাসিক</span>
+              <span>কিশোর কণ্ঠ পাঠক ফোরাম, কুমিল্লা মহানগর</span>
+            </p>
           </div>
           <div className="grid grid-cols-2 gap-6 sm:gap-6 md:gap-8">
             <div>

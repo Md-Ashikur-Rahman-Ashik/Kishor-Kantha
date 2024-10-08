@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "./Navbar.css";
 
 export default function Navbar() {
@@ -14,9 +14,10 @@ export default function Navbar() {
       <div className="px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           {/* Logo */}
-          <div className="flex-shrink-0 flex items-center">
+          <Link to={"/"} className="flex-shrink-0 gap-2 flex items-center">
             <img src="/logo.jpg" alt="Logo" className="h-16" />
-          </div>
+            <p className="font-bold">কিশোর কণ্ঠ পাঠক ফোরাম, কুমিল্লা মহানগর</p>
+          </Link>
 
           {/* Hamburger icon for mobile */}
           <div className="flex items-center sm:hidden">
