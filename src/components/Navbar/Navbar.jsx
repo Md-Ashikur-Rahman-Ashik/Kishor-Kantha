@@ -15,7 +15,7 @@ export default function Navbar() {
         <div className="flex justify-between h-16">
           {/* Logo */}
           <Link to={"/"} className="flex-shrink-0 gap-2 flex items-center">
-            <img src="/logo.jpg" alt="Logo" className="h-16" />
+            <img src="/logo.png" alt="Logo" className="h-16" />
             <p className="font-bold">কিশোর কণ্ঠ পাঠক ফোরাম, কুমিল্লা মহানগর</p>
           </Link>
 
